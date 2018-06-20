@@ -1,0 +1,156 @@
+{
+    "acquisition_software": "Pychron18.2(Exp0.2,DVC0.1)",
+    "aliquot": 3,
+    "analysis_type": "unknown",
+    "analyst_name": "",
+    "comment": "F:5 melt repicked 1.75 mg minibone",
+    "commit": "50e8fa8d8c19b224b4051ecd6fe6dbdb4bc1b2ff",
+    "conditionals": null,
+    "data_reduction_software": "Pychron18.2(DVC0.1)",
+    "detectors": {
+        "AX": {
+            "deflection": 190.0,
+            "gain": 0
+        },
+        "CDD": {
+            "deflection": 50.0,
+            "gain": 0
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 0
+        },
+        "H2": {
+            "deflection": 0.0,
+            "gain": 0
+        },
+        "L1": {
+            "deflection": 400.0,
+            "gain": 0
+        },
+        "L2": {
+            "deflection": 825.0,
+            "gain": 0
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Hum.",
+                "pub_date": "2018-06-20T16:57:32",
+                "title": "iServer Hum.",
+                "value": 20.5
+            }
+        ],
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure",
+                "name": "Pressure",
+                "pub_date": "2018-06-20T16:23:24",
+                "title": "Building",
+                "value": 99.4
+            },
+            {
+                "device": "AirPressure2",
+                "name": "Pressure2",
+                "pub_date": "2018-06-20T15:06:48",
+                "title": "Lab",
+                "value": 88.4
+            },
+            {
+                "device": "MicroBoneGaugeController",
+                "name": "JanDecabinPressure",
+                "pub_date": "2018-06-20T16:49:26",
+                "title": "Jan Decabin",
+                "value": 4.2
+            }
+        ],
+        "lab_temperatures": [
+            {
+                "device": "Coldfinger",
+                "name": "ColdFinger Temp.",
+                "pub_date": "2018-06-20T16:54:29",
+                "title": "Cold Finger",
+                "value": -196.0
+            },
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Temp.",
+                "pub_date": "2018-06-20T16:37:19",
+                "title": "iServer Temp.",
+                "value": 75.2
+            },
+            {
+                "device": "Chiller",
+                "name": "Coolant Temp.",
+                "pub_date": "2018-06-20T16:50:01",
+                "title": "Coolant",
+                "value": 16.0
+            },
+            {
+                "device": "JanMonitor",
+                "name": "JanDecabinTemp",
+                "pub_date": "2018-06-20T16:45:29",
+                "title": null,
+                "value": 36.004884004884
+            }
+        ]
+    },
+    "experiment_queue_name": "Load1897_crystal7",
+    "extraction": "jan_co2_minibone.py",
+    "identifier": "66374",
+    "increment": 7,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "NM-295",
+    "irradiation_level": "F",
+    "irradiation_position": 5,
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD",
+            "name": "Ar36"
+        },
+        "Ar37": {
+            "detector": "L2",
+            "name": "Ar37"
+        },
+        "Ar38": {
+            "detector": "L1",
+            "name": "Ar38"
+        },
+        "Ar39": {
+            "detector": "AX",
+            "name": "Ar39"
+        },
+        "Ar40": {
+            "detector": "H1",
+            "name": "Ar40"
+        },
+        "Ar41": {
+            "detector": "H2",
+            "name": "Ar41"
+        }
+    },
+    "laboratory": "",
+    "mass_spectrometer": "Jan",
+    "material": "Glass",
+    "measurement": "jan_unknown400_120_no_center.py",
+    "post_equilibration": "jan_pump_extraction_line.py",
+    "post_measurement": "jan_pump_ms.py",
+    "principal_investigator": "Christine",
+    "project": "Christine01116",
+    "queue_conditionals_name": "",
+    "repository_identifier": "Christine01116",
+    "sample": "Tc8-14",
+    "source": {
+        "emission": 548.522,
+        "trap": 198.706
+    },
+    "spec_sha": "70bc472c0ec5b1873d0e234e12033b0b2641dbc5",
+    "timestamp": "2018-06-20T16:59:22.330645",
+    "tripped_conditional": null,
+    "username": "",
+    "uuid": "b745edcd-2d16-43e6-af07-7026e9ab2341",
+    "whiff_result": null
+}
